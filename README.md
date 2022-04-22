@@ -1,0 +1,1 @@
+# webcore-kata-1.6
