@@ -1,7 +1,50 @@
+@import "vendor";
 @import "fonts";
 @import "vars";
 @import "settings";
 @import "header";
 @import "services";
 @import "sidebar-left";
+@import "brands";
+@import "slider";
 
+.main {
+  display: flex;
+  flex-direction: column;
+
+
+  @media (min-width: 1440px) {
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+}
+
+.read-more {
+  display: none;
+  padding: 7px 7px 7px 25px ;
+  border-radius: 6px;
+  background: 7px / 10px no-repeat url("../img/arrow-icon.svg");
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+  line-height: 24px;
+  transition:filter .24s ease;
+
+  @media (min-width: 768px) {
+    display: block;
+
+    &:hover {
+      background-color: #fff;
+      filter: drop-shadow( 0 0 1px rgb(0, 225, 255));
+    }
+
+    &:focus  {
+      outline: none;
+    }
+
+    &--open {
+      background: 7px / 10px no-repeat url("../img/top-arrow-icon.svg");
+    }
+  }
+}

@@ -4,62 +4,70 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="660565f8-e784-453b-8c88-7c233c6fb10d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/npm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/TTLakes-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/TTLakes-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/TTLakes-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/arrow-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/burger-close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/burger.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/call.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/chat.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/checkstatus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/go.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/highlight.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/logotips/Lenovo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/logotips/Samsung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/logotips/ViewSonic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/logotips/acer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/logotips/apple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/logotips/bosh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/logotips/hp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/logotips/sony.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/mine-menu-highlight.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/picture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/profile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/repair.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/repair.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/top-arrow-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_brands.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_services.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_settings.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_sidebar-left.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_slider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_vars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/mixins/_font-face.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    <list default="true" id="08e20877-d6a6-4c3c-9110-1d619fe8d51c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webcore-kata-1.6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/css/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/TTLakes-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/TTLakes-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/TTLakes-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/Lenovo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/Samsung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/ViewSonic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/acer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/apple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/arrow-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/bosh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/burger-close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/burger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/call.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/chat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/checkstatus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/go.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/highlight.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/hp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/mine-menu-highlight.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/picture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/profile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/repair.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/sony.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/main.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/vendors-node_modules_focus-visible_dist_focus-visible_js-node_modules_html-loader_dist_runtim-b0975e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/vendors-node_modules_focus-visible_dist_focus-visible_js-node_modules_html-loader_dist_runtim-b0975e.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_vendor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_brands.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_brands.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_sidebar-left.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_sidebar-left.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,7 +75,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="28OHIVDG7D1UhFVHHBeDGcIB19d" />
+  <component name="ProjectId" id="28RAKaNJKQCggnno3pCzNxpHPYl" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -76,31 +84,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="660565f8-e784-453b-8c88-7c233c6fb10d" name="Changes" comment="" />
-      <created>1651080631780</created>
+      <changelist id="08e20877-d6a6-4c3c-9110-1d619fe8d51c" name="Changes" comment="" />
+      <created>1651168964974</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1651080631780</updated>
-      <workItem from="1651080633087" duration="614000" />
-      <workItem from="1651152369892" duration="2755000" />
+      <updated>1651168964974</updated>
+      <workItem from="1651168967646" duration="7833000" />
     </task>
     <servers />
   </component>
@@ -117,8 +121,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -109,7 +109,7 @@ footer {
 
 .container {
   margin: 0;
-  padding: 18.59px 16px;
+  padding: 18px 16px;
 
   @media (min-width: 768px) {
     padding-right: 24px;
@@ -121,4 +121,17 @@ footer {
     padding-left: 30px;
     max-width: 1180px;
   }
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: $menu-text-color;
+  text-transform: uppercase;
+}
+
+.open {
+  max-height: 100% !important;
 }

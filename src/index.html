@@ -4,9 +4,193 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
-  <title>new site</title>
+  <title>Сервис центр</title>
 </head>
 <body>
+<header class="header">
+  <div class="header__wrapper container">
+    <div class="header__upper-menu upper-menu">
+      <div class="upper-menu__left">
+        <button class="upper-menu__btn upper-menu__btn-burger btn--reset" aria-label="Открыть меню"></button>
+        <div class="upper-menu__left-splitter"></div>
+        <img src="./img/logo.svg" alt="Логотип компании" class="upper-menu__logo">
+      </div>
+      <div class="upper-menu__right">
+        <button class="upper-menu__btn upper-menu__btn-call btn--reset" aria-label="Заказать звонок"></button>
+        <button class="upper-menu__btn upper-menu__btn-chat btn--reset" aria-label="Обратная связь"></button>
+        <button class="upper-menu__btn upper-menu__btn-profile btn--reset" aria-label="Профиль"></button>
+        <div class="upper-menu__right-splitter"></div>
+        <button class="upper-menu__btn upper-menu__btn-repair btn--reset" aria-label="Оставить заявку"></button>
+        <button class="upper-menu__btn upper-menu__btn-checkstatus btn--reset"
+                aria-label="Проверить статус ремонта"></button>
+      </div>
+    </div>
+  </div>
+</header>
+<main class="main">
+  <div class="sidebar-left">
+    <div class="sidebar-left__wrapper container">
+      <div class="sidebar-left__main-menu main-menu">
+        <div class="main-menu__top">
+          <div class="main-menu__top-header">
+            <button class="main-menu__btn main-menu__btn-burger-close btn--reset" aria-label="Открыть меню"></button>
+            <img src="./img/logo.svg" alt="Логотип компании" class="main-menu__logo">
+            <button class="main-menu__btn main-menu__btn-search btn--reset" aria-label="Открыть меню"></button>
+          </div>
+          <ul class="main-menu__list">
+            <li class="main-menu__item main-menu__item--active"><a href="#" class="main-menu__link">Ремонт техники</a>
+            </li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link">Услуги и сервисы</a>
+            </li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link">Корпоративным клиентам</a></li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link">Продавцам техники</a></li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link">Партнерам</a></li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link">Производителям</a></li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link">Наши сервисные центры</a></li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="main-menu__bottom">
+          <div class="main-menu__btn-wrapper">
+            <button class="main-menu__btn main-menu__btn-call btn--reset" aria-label="Заказать звонок"></button>
+            <button class="main-menu__btn main-menu__btn-chat btn--reset" aria-label="Обратная связь"></button>
+            <button class="main-menu__btn main-menu__btn-profile btn--reset" aria-label="Профиль"></button>
+          </div>
+          <div class="main-menu__contact-wrapper contact">
+            <p class="contact__mail">mail@cps.com</p>
+            <p class="contact__tel">8 800 890 8900</p>
+          </div>
+        </div>
+        <div class="main-menu__lang">
+          <button class="main-menu__lang-btn main-menu__lang-btn--active btn--reset">RU</button>
+          <button class="main-menu__lang-btn btn--reset">EN</button>
+          <button class="main-menu__lang-btn btn--reset">CH</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main__wrapper">
+    <section class="services container">
+      <div class="services__header services-header">
+        <h1 class="visually-hidden">Компания по ремонту техники CPS</h1>
+        <h2 class="services-header__title title">Услуги и сервисы</h2>
+        <div class="services-header__btn-container">
+          <div class="services-header__btn-wrapper">
+            <button class="services-header__btn btn--reset">Оставить заявку</button>
+            <img src="./img/repair.svg" alt="Оставить заявку" class="services-header__btn-img">
+          </div>
+          <div class="services-header__btn-wrapper">
+            <button class="services-header__btn btn--reset">Статус ремонта</button>
+            <img src="./img/checkstatus.svg" alt="Проверить статус ремонта" class="services-header__btn-img">
+          </div>
+        </div>
+        <div class="services-header__menu">
+          <ul class="services-header__list">
+            <li class="services-header__item services-header__item--active"><a href="#"
+                                                                               class="services-header__link">Ремонтируемые
+              бренды</a></li>
+            <li class="services-header__item"><a href="#" class="services-header__link">Ремонтируемые устройства</a>
+            </li>
+            <li class="services-header__item"><a href="#" class="services-header__link">Цены на услуги</a></li>
+            <li class="services-header__item"><a href="#" class="services-header__link">Адреса сервисных центров</a>
+            </li>
+            <li class="services-header__item"><a href="#" class="services-header__link">Специальные цены</a></li>
+            <li class="services-header__item"><a href="#" class="services-header__link">Отзывы</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="services__description services-description">
+        <div class="services-description__box">
+          <div class="services-description__text ">
+            <p class="services-description__par">Мы являемся авторизованным сервисным центром по ремонту техники Dell.
+              Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+            <p class="services-description__par">Мы успешно работаем с 1992 года и заслужили репутацию надежного
+              партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются
+              по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+          </div>
+          <div class="services-description__more-box">
+            <button class="services-description__read-more btn--reset">Читать далее</button>
+          </div>
+        </div>
+        <img src="./img/picture.jpg" alt="" class="services-description__img">
+      </div>
+    </section>
+    <section class="brands">
+      <div class="brands__header container">
+        <h2 class="brands__title section-title title">Ремонт техники различных брендов</h2>
+      </div>
+      <div class="swiper container">
+        <div class="swiper-wrapper brands__wrapper" data-container="brands">
+          <div class="brands__item swiper-slide">
+            <img src="./img/logotips/Lenovo.png" alt="Логотип компании" class="brands__item-img">
+            <button class="brands__item-btn btn--reset"></button>
+          </div>
+          <div class="brands__item swiper-slide">
+            <img src="./img/logotips/Samsung.png" alt="Логотип компании" class="brands__item-img">
+            <button class="brands__item-btn btn--reset"></button>
+          </div>
+          <div class="brands__item swiper-slide">
+            <img src="./img/logotips/apple.png" alt="Логотип компании" class="brands__item-img">
+            <button class="brands__item-btn btn--reset"></button>
+          </div>
+          <div class="brands__item swiper-slide">
+            <img src="./img/logotips/ViewSonic.png" alt="Логотип компании" class="brands__item-img">
+            <button class="brands__item-btn btn--reset"></button>
+          </div>
+          <div class="brands__item swiper-slide">
+            <img src="./img/logotips/bosh.png" alt="Логотип компании" class="brands__item-img">
+            <button class="brands__item-btn btn--reset"></button>
+          </div>
+          <div class="brands__item swiper-slide brands__item--hp">
+            <img src="./img/logotips/hp.png" alt="Логотип компании" class="brands__item-img">
+            <button class="brands__item-btn btn--reset"></button>
+          </div>
+          <div class="brands__item swiper-slide">
+            <img src="./img/logotips/acer.png" alt="Логотип компании" class="brands__item-img">
+            <button class="brands__item-btn btn--reset"></button>
+          </div>
+          <div class="brands__item swiper-slide">
+            <img src="./img/logotips/sony.png" alt="Логотип компании" class="brands__item-img">
+            <button class="brands__item-btn btn--reset"></button>
+          </div>
+          <div class="brands__item swiper-slide">
+            <img src="./img/logotips/Lenovo.png" alt="Логотип компании" class="brands__item-img">
+            <button class="brands__item-btn btn--reset"></button>
+          </div>
+          <div class="brands__item swiper-slide">
+            <img src="./img/logotips/Samsung.png" alt="Логотип компании" class="brands__item-img">
+            <button class="brands__item-btn btn--reset"></button>
+          </div>
+          <div class="brands__item swiper-slide">
+            <img src="./img/logotips/apple.png" alt="Логотип компании" class="brands__item-img">
+            <button class="brands__item-btn btn--reset"></button>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="brands__more-box container">
+        <button class="brands__read-more read-more btn--reset" data-name="brands">Показать все</button>
+      </div>
+    </section>
+    <section class="repair">
+      <div class="repair__header container">
+        <h2 class="repair__title section-title title">Ремонт различных видов техники</h2>
+      </div>
+      <div class="swiper container">
+        <div class="swiper-wrapper repair__wrapper" data-container="repair">
+          <div class="repair__item swiper-slide">
+            <img src="./img/logotips/Lenovo.png" alt="Логотип компании" class="repair__item-img">
+            <button class="repair__item-btn btn--reset"></button>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="repair__more-box container">
+        <button class="repair__read-more read-more btn--reset" data-name="repair">Показать все</button>
+      </div>
+    </section>
+  </div>
+</main>
 
 </body>
 </html>

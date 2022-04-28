@@ -1,9 +1,19 @@
 .sidebar-left {
-  margin-right: auto;
+  display: none;
+  //margin-right: auto;
   width: 320px;
+  background-color: $white;
 
   @media (min-width: 768px) {
     box-shadow: 16px 0 52px rgba(14, 24, 80, 0.2);
+  }
+
+  @media (min-width: 1440px) {
+    display: block;
+    //position: sticky;
+    //top: 0;
+    //left: 0;
+    box-shadow: none;
   }
  
 
