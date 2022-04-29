@@ -19,7 +19,6 @@ function changeBtn(btn) {
 }
 
 document.addEventListener('click', e => {
-
     openMore(e.target.dataset.name);
 
     if (e.target.classList.contains('read-more')) {

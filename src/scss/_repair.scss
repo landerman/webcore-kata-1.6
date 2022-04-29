@@ -1,4 +1,4 @@
-.brands {
+.repair {
 
   &__wrapper {
     @media (min-width: 768px) {
@@ -8,8 +8,7 @@
       max-height: 150px;
     }
 
-    @media (min-width: 1120px) {
-      display: grid;
+    @media (min-width: 1440px) {
       grid-template-columns: repeat(4,1fr);
       gap: 16px 32px;
       max-height: 150px;
@@ -17,16 +16,20 @@
   }
 
   &__item {
-    max-height: 72px;
+    width: 260px;
+    height: 160px;
 
-    &--hp {
-      padding: 10px 16px 10px 10px;
+    &-title {
+      align-self: flex-start;
+      max-width: 185px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: -.2px;
     }
 
-    &-img {
-      object-fit: contain;
-      max-height: 52px;
+    &-btn {
+      align-self: flex-end;
     }
   }
 }
-

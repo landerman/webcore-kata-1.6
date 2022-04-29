@@ -1,6 +1,7 @@
 import Swiper, {Pagination} from 'swiper';
 
-const sliders = document.querySelectorAll(".swiper");
+const sliders = document.querySelectorAll(".swiper-default");
+const sliderPrice = document.querySelectorAll(".swiper-price");
 
 sliders.forEach((slider) => {
   let swiper;
@@ -29,3 +30,33 @@ sliders.forEach((slider) => {
     createSlider();
   });
 })
+
+sliderPrice.forEach((slider) => {
+  let swiperPrice;
+  function createSliderPrice() {
+    if (window.innerWidth <= 767 && !slider.classList.contains('swiper-initialized')) {
+      return swiperPrice = new Swiper(slider, {
+        loop: true,
+        width: 292,
+        slidesPerView: 1,
+        spaceBetween: 16,
+        modules: [Pagination],
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          clickable: true,
+        },
+      });
+    }
+
+    if (window.innerWidth > 767 && slider.classList.contains('swiper-initialized')) swiperPrice.destroy()
+  }
+
+  createSliderPrice()
+
+  window.addEventListener('resize', () => {
+    createSliderPrice();
+  });
+})
+
+

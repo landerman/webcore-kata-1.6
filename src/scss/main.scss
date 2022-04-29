@@ -7,6 +7,9 @@
 @import "sidebar-left";
 @import "brands";
 @import "slider";
+@import "repair";
+@import "price";
+
 
 .main {
   display: flex;
@@ -18,6 +21,10 @@
     margin: 0 auto;
     max-width: 1440px;
   }
+}
+
+.section__header {
+  background-image: linear-gradient(270deg, #ffffff 0%, #f8f8f8 95%);
 }
 
 .read-more {
@@ -46,5 +53,15 @@
     &--open {
       background: 7px / 10px no-repeat url("../img/top-arrow-icon.svg");
     }
+  }
+}
+
+.item-btn {
+  width: 40px;
+  height: 40px;
+  background: {
+    image: url(../img/go.svg);
+    position: center;
+    repeat: no-repeat;
   }
 }
