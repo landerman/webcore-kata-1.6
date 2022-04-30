@@ -53,8 +53,8 @@
         </div>
         <div class="main-menu__bottom">
           <div class="main-menu__btn-wrapper">
-            <button class="main-menu__btn main-menu__btn-call btn--reset" aria-label="Заказать звонок"></button>
-            <button class="main-menu__btn main-menu__btn-chat btn--reset" aria-label="Обратная связь"></button>
+            <button class="main-menu__btn main-menu__btn-call btn--reset" aria-label="Заказать звонок" data-btn="callback"></button>
+            <button class="main-menu__btn main-menu__btn-chat btn--reset" aria-label="Обратная связь" data-btn="feedback"></button>
             <button class="main-menu__btn main-menu__btn-profile btn--reset" aria-label="Профиль"></button>
           </div>
           <div class="main-menu__contact-wrapper contact">
@@ -71,8 +71,8 @@
     </div>
   </div>
   <div class="modal">
-    <div class="modal__feedback modal-wrapper">
-      <button class="modal__close-btn btn--reset"></button>
+    <div class="modal__feedback modal-wrapper" data-modal="feedback">
+      <button class="modal__close-btn btn--reset" data-btn="feedback"></button>
       <form class="modal__form">
         <h2 class="modal__title title">Обратная связь</h2>
         <input type="text" class="modal__input" placeholder="Имя">
@@ -84,8 +84,8 @@
         <button class="modal__submit-btn btn--reset">ОТПРАВИТЬ</button>
       </form>
     </div>
-    <div class="modal__callback modal-wrapper">
-      <button class="modal__close-btn btn--reset"></button>
+    <div class="modal__callback modal-wrapper" data-modal="callback">
+      <button class="modal__close-btn btn--reset" data-btn="callback"></button>
       <form class="modal__form">
         <h2 class="modal__title title">Заказать звонок</h2>
         <input type="tel" class="modal__input" placeholder="Телефон">
