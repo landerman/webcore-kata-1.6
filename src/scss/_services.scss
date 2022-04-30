@@ -10,7 +10,7 @@
       margin-bottom: 32px;
     }
 
-    @media (min-width: 1120px) {
+    @media (min-width: 1440px) {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -60,7 +60,7 @@
       &-container {
         display: none;
 
-        @media (min-width: 1120px) {
+        @media (min-width: 1440px) {
           display: flex;
           gap: 32px;
         }
@@ -85,7 +85,7 @@
         height: 0;
       }
 
-      @media (min-width: 1120px) {
+      @media (min-width: 1440px) {
         flex-wrap: wrap;
       }
     }
@@ -123,7 +123,7 @@
         width: 43%;
       }
 
-      @media (min-width: 1120px) {
+      @media (min-width: 1440px) {
         width: 50%;
       }
     }
@@ -137,7 +137,7 @@
         max-height: 160px;
       }
 
-      @media (min-width: 1120px) {
+      @media (min-width: 1440px) {
         max-height: 160px;
       }
     }

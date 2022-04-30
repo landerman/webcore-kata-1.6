@@ -1,10 +1,16 @@
 .header {
+  background-color: $white;
   &__upper-menu {
     display: flex;
     justify-content: space-between;
   }
 
-  @media (min-width: 1120px) {
+  &__wrapper {
+    margin: 0 auto;
+
+  }
+
+  @media (min-width: 1440px) {
     display: none;
   }
 }

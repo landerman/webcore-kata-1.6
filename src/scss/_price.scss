@@ -60,21 +60,28 @@
       margin-bottom: 47px;
     }
 
-    &::before {
-      position: absolute;
-      content: "";
-      right: 60%;
-      bottom: 15%;
-      width: 8px;
-      height: 8px;
-      border-bottom: 2px solid #FF3E79;
-      border-right: 2px solid #FF3E79;
-      transform: rotate(-45deg);
+    &>a>span{
+      position: relative;
 
-      @media (min-width: 768px) {
-        right: 25%;
-        bottom: 50%;
-        transform: translateY(50%) rotate(-45deg);
+      &:hover {
+        color: #4444dd;
+      }
+
+      &::before {
+        position: absolute;
+        content: "";
+        right: -15px;
+        bottom: 6px;
+        width: 8px;
+        height: 8px;
+        border-bottom: 2px solid #FF3E79;
+        border-right: 2px solid #FF3E79;
+        transform: rotate(-45deg);
+
+        @media (min-width: 768px) {
+          bottom: 50%;
+          transform: translateY(50%) rotate(-45deg);
+        }
       }
     }
   }
