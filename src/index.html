@@ -7,6 +7,7 @@
   <title>Сервис центр</title>
 </head>
 <body>
+<div class="overlay"></div>
 <header class="header">
   <div class="header__wrapper container">
     <div class="header__upper-menu upper-menu">
@@ -28,6 +29,7 @@
   </div>
 </header>
 <main class="main">
+
   <div class="sidebar-left">
     <div class="sidebar-left__wrapper container">
       <div class="sidebar-left__main-menu main-menu">
@@ -75,14 +77,11 @@
         <h1 class="visually-hidden">Компания по ремонту техники CPS</h1>
         <h2 class="services-header__title title">Услуги и сервисы</h2>
         <div class="services-header__btn-container">
-          <div class="services-header__btn-wrapper">
-            <button class="services-header__btn btn--reset">Оставить заявку</button>
-            <img src="./img/repair.svg" alt="Оставить заявку" class="services-header__btn-img">
-          </div>
-          <div class="services-header__btn-wrapper">
-            <button class="services-header__btn btn--reset">Статус ремонта</button>
-            <img src="./img/checkstatus.svg" alt="Проверить статус ремонта" class="services-header__btn-img">
-          </div>
+            <button class="services-header__btn btn--reset services-header__btn-wrapper">Оставить заявку <img src="./img/repair.svg" alt="Оставить заявку" class="services-header__btn-img">
+            </button>
+            <button class="services-header__btn btn--reset services-header__btn-wrapper">Статус ремонта
+              <img src="./img/checkstatus.svg" alt="Проверить статус ремонта" class="services-header__btn-img">
+            </button>
         </div>
         <div class="services-header__menu">
           <ul class="services-header__list">

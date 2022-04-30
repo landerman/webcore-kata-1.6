@@ -67,3 +67,21 @@
     repeat: no-repeat;
   }
 }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: $white;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 2;
+  transition: opacity .24s ease-in-out;
+
+  &--open {
+    opacity: 0.95;
+    visibility: visible;
+  }
+}

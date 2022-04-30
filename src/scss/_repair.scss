@@ -21,7 +21,9 @@
       width: 224px;
     }
 
-
+    @media (min-width: 1440px) {
+      width: 240px;
+    }
 
     &-title {
       align-self: flex-start;

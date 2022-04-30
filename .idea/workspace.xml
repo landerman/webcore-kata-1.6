@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08e20877-d6a6-4c3c-9110-1d619fe8d51c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scss/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_price.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_price.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_repair.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_repair.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_services.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_sidebar-left.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_sidebar-left.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
@@ -72,7 +71,7 @@
       <workItem from="1651248315352" duration="584000" />
       <workItem from="1651248921585" duration="3482000" />
       <workItem from="1651255259002" duration="3733000" />
-      <workItem from="1651339623420" duration="5423000" />
+      <workItem from="1651339623420" duration="8677000" />
     </task>
     <servers />
   </component>

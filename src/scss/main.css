@@ -776,6 +776,7 @@ html {
 }
 
 body {
+  position: relative;
   overflow-anchor: none;
   margin: 0;
   font-family: "TTLakes", sans-serif;
@@ -1058,12 +1059,13 @@ textarea:focus {
 @media (min-width: 1120px) {
   .services-header__btn-container {
     display: flex;
+    gap: 32px;
   }
 }
 .services-header__btn-wrapper {
   display: flex;
+  gap: 8px;
   align-items: center;
-  margin-right: 32px;
 }
 .services-header__list {
   display: flex;
@@ -1162,9 +1164,19 @@ textarea:focus {
 }
 
 .sidebar-left {
-  display: none;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -300px;
   width: 320px;
   background-color: #FFFFFF;
+  visibility: hidden;
+  z-index: 3;
+  transition: all 0.3s ease-in-out;
+}
+.sidebar-left--open {
+  left: 0px;
+  visibility: visible;
 }
 @media (min-width: 768px) {
   .sidebar-left {
@@ -1174,6 +1186,8 @@ textarea:focus {
 @media (min-width: 1440px) {
   .sidebar-left {
     display: block;
+    position: static;
+    visibility: visible;
     box-shadow: none;
   }
 }
@@ -1268,6 +1282,11 @@ textarea:focus {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+@media (min-width: 1440px) {
+  .main-menu__btn-burger-close {
+    display: none;
+  }
 }
 .main-menu__btn-call {
   background-image: url("../img/call.svg");
@@ -1412,6 +1431,11 @@ textarea:focus {
     width: 224px;
   }
 }
+@media (min-width: 1440px) {
+  .repair__item {
+    width: 240px;
+  }
+}
 .repair__item-title {
   align-self: flex-start;
   max-width: 185px;
@@ -1459,10 +1483,12 @@ textarea:focus {
     border-radius: 6px;
   }
 }
-.price__wrapper-bottom {
-  padding: 0;
-  padding-left: 24px;
-  max-width: 445px;
+@media (min-width: 768px) {
+  .price__wrapper-bottom {
+    padding: 0;
+    padding-left: 24px;
+    max-width: 445px;
+  }
 }
 .price__description {
   margin-bottom: 16px;
@@ -1687,6 +1713,23 @@ textarea:focus {
   background-image: url(../img/go.svg);
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #FFFFFF;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 2;
+  transition: opacity 0.24s ease-in-out;
+}
+.overlay--open {
+  opacity: 0.95;
+  visibility: visible;
 }
 
 /*# sourceMappingURL=main.css.map */

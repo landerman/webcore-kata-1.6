@@ -1,6 +1,10 @@
 "use strict";
 
 const dataNameContainers = document.querySelectorAll('[data-container]');
+const burger = document.querySelector('.upper-menu__btn-burger');
+const closeBurger = document.querySelector('.main-menu__btn-burger-close');
+const sidebar = document.querySelector('.sidebar-left');
+const overlay = document.querySelector('.overlay');
 
 function openMore(name) {
     [...dataNameContainers].forEach(container => {
@@ -24,4 +28,17 @@ document.addEventListener('click', e => {
     if (e.target.classList.contains('read-more')) {
         changeBtn(e.target)
     }
+})
+
+
+function toggleLeftSidebar () {
+    sidebar.classList.toggle('sidebar-left--open');
+    overlay.classList.toggle('overlay--open');
+}
+burger.addEventListener('click', () => {
+    toggleLeftSidebar();
+})
+
+closeBurger.addEventListener('click', () => {
+    toggleLeftSidebar();
 })

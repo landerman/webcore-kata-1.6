@@ -62,13 +62,14 @@
 
         @media (min-width: 1120px) {
           display: flex;
+          gap: 32px;
         }
       }
 
       &-wrapper {
         display: flex;
+        gap: 8px;
         align-items: center;
-        margin-right: 32px;
       }
     }
 

@@ -32,9 +32,12 @@
   }
 
   &__wrapper-bottom {
-    padding: 0;
-    padding-left: 24px;
-    max-width: 445px;
+
+    @media (min-width: 768px) {
+      padding: 0;
+      padding-left: 24px;
+      max-width: 445px;
+    }
   }
 
   &__description {

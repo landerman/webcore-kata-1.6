@@ -1,8 +1,18 @@
 .sidebar-left {
-  display: none;
-  //margin-right: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -300px;
   width: 320px;
   background-color: $white;
+  visibility: hidden;
+  z-index: 3;
+  transition: all 0.3s ease-in-out;
+
+  &--open {
+    left: 0px;
+    visibility: visible;
+  }
 
   @media (min-width: 768px) {
     box-shadow: 16px 0 52px rgba(14, 24, 80, 0.2);
@@ -10,9 +20,8 @@
 
   @media (min-width: 1440px) {
     display: block;
-    //position: sticky;
-    //top: 0;
-    //left: 0;
+    position: static;
+    visibility: visible;
     box-shadow: none;
   }
  
@@ -122,6 +131,10 @@
         position: center;
         size: cover;
         repeat: no-repeat;
+      }
+
+      @media (min-width: 1440px) {
+        display: none;
       }
     }
 
