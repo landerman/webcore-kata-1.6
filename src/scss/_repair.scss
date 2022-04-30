@@ -16,8 +16,12 @@
   }
 
   &__item {
-    width: 260px;
     height: 160px;
+    @media (min-width: 768px) {
+      width: 224px;
+    }
+
+
 
     &-title {
       align-self: flex-start;
@@ -26,6 +30,10 @@
       font-weight: 500;
       line-height: 24px;
       letter-spacing: -.2px;
+
+      @media (min-width: 768px) {
+        max-width: 150px;
+      }
     }
 
     &-btn {
