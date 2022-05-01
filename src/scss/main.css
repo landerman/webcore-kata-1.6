@@ -897,6 +897,11 @@ textarea:focus {
   max-height: 100% !important;
 }
 
+.disable-scroll {
+  position: relative;
+  overflow: hidden;
+}
+
 .header {
   background-color: #FFFFFF;
 }
@@ -1181,7 +1186,7 @@ textarea:focus {
   transition: all 0.3s ease-in-out;
 }
 .sidebar-left--open {
-  left: 0px;
+  left: 0;
   visibility: visible;
 }
 @media (min-width: 768px) {
@@ -1262,6 +1267,9 @@ textarea:focus {
   font-weight: 500;
   color: #1B1C21;
 }
+.main-menu__link:hover {
+  color: #7E7E82;
+}
 .main-menu__item--active .main-menu__link {
   color: #7E7E82;
 }
@@ -1333,6 +1341,9 @@ textarea:focus {
 .main-menu__lang-btn--active {
   color: #7E7E82;
 }
+.main-menu__lang-btn:hover {
+  color: #7E7E82;
+}
 
 .contact {
   display: flex;
@@ -1346,11 +1357,17 @@ textarea:focus {
   line-height: 24px;
   color: #1B1C21;
 }
+.contact__mail:hover {
+  color: #7E7E82;
+}
 .contact__tel {
   font-size: 24px;
   font-weight: 600;
   letter-spacing: -0.6px;
   line-height: 32px;
+}
+.contact__tel:hover {
+  color: #7E7E82;
 }
 
 @media (min-width: 768px) {
@@ -1678,14 +1695,16 @@ textarea:focus {
 
 .modal {
   display: block;
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: -100%;
   width: 320px;
+  border-left: 1px solid #D9FFF5;
   background-color: #FFFFFF;
   visibility: hidden;
-  z-index: 3;
+  box-shadow: 16px 0 52px rgba(14, 24, 80, 0.2), -2px 0 4px rgba(69, 79, 126, 0.02);
+  z-index: 4;
   transition: all 0.3s ease-in-out;
 }
 .modal--open {
@@ -1884,11 +1903,12 @@ textarea:focus {
 }
 
 .overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  height: 100vh;
   background-color: #FFFFFF;
   visibility: hidden;
   opacity: 0;

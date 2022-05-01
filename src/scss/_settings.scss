@@ -131,3 +131,8 @@ textarea:focus {
 .open {
   max-height: 100% !important;
 }
+
+.disable-scroll {
+  position: relative;
+  overflow: hidden;
+}

@@ -1,13 +1,16 @@
 .modal {
   display: block;
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: -100%;
   width: 320px;
+  border-left: 1px solid #D9FFF5;
   background-color: $white;
   visibility: hidden;
-  z-index: 3;
+  box-shadow: 16px 0 52px rgba(14, 24, 80, 0.2),
+              -2px 0 4px rgba(69, 79, 126, 0.02);
+  z-index: 4;
   transition: all 0.3s ease-in-out;
 
   &--open {

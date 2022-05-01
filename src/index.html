@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,31 @@
   <title>Сервис центр</title>
 </head>
 <body>
+<div class="modal">
+  <div class="modal__feedback modal-wrapper" data-modal="feedback">
+    <button class="modal__close-btn btn--reset" data-btn="feedback"></button>
+    <form class="modal__form">
+      <h2 class="modal__title title">Обратная связь</h2>
+      <input type="text" class="modal__input" placeholder="Имя">
+      <input type="tel" class="modal__input" placeholder="Телефон">
+      <input type="email" class="modal__input" placeholder="Электронная почта">
+      <textarea class="modal__input modal__textarea" placeholder="Сообщение" rows="5" cols="33"></textarea>
+      <p class="modal__agreement">Нажимая “отправить”, вы даете согласие на <a href="#">обработку персональных
+        данных</a> и соглашаетесь с нашей <a href="#">политикой конфиденциальности</a></p>
+      <button class="modal__submit-btn btn--reset">ОТПРАВИТЬ</button>
+    </form>
+  </div>
+  <div class="modal__callback modal-wrapper" data-modal="callback">
+    <button class="modal__close-btn btn--reset" data-btn="callback"></button>
+    <form class="modal__form">
+      <h2 class="modal__title title">Заказать звонок</h2>
+      <input type="tel" class="modal__input" placeholder="Телефон">
+      <p class="modal__agreement">Нажимая “отправить”, вы даете согласие на <a href="#">обработку персональных
+        данных</a> и соглашаетесь с нашей <a href="#">политикой конфиденциальности</a></p>
+      <button class="modal__submit-btn btn--reset">ОТПРАВИТЬ</button>
+    </form>
+  </div>
+</div>
 <div class="overlay"></div>
 <header class="header">
   <div class="header__wrapper container">
@@ -58,8 +83,8 @@
             <button class="main-menu__btn main-menu__btn-profile btn--reset" aria-label="Профиль"></button>
           </div>
           <div class="main-menu__contact-wrapper contact">
-            <p class="contact__mail">mail@cps.com</p>
-            <p class="contact__tel">8 800 890 8900</p>
+            <a href="mailto:mail@cps.com" class="contact__mail">mail@cps.com</a>
+            <a href="tel:+78008908900" class="contact__tel">8 800 890 8900</a>
           </div>
         </div>
         <div class="main-menu__lang">
@@ -68,31 +93,6 @@
           <button class="main-menu__lang-btn btn--reset">CH</button>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="modal">
-    <div class="modal__feedback modal-wrapper" data-modal="feedback">
-      <button class="modal__close-btn btn--reset" data-btn="feedback"></button>
-      <form class="modal__form">
-        <h2 class="modal__title title">Обратная связь</h2>
-        <input type="text" class="modal__input" placeholder="Имя">
-        <input type="tel" class="modal__input" placeholder="Телефон">
-        <input type="email" class="modal__input" placeholder="Электронная почта">
-        <textarea class="modal__input modal__textarea" placeholder="Сообщение" rows="5" cols="33"></textarea>
-        <p class="modal__agreement">Нажимая “отправить”, вы даете согласие на <a href="#">обработку персональных
-          данных</a> и соглашаетесь с нашей <a href="#">политикой конфиденциальности</a></p>
-        <button class="modal__submit-btn btn--reset">ОТПРАВИТЬ</button>
-      </form>
-    </div>
-    <div class="modal__callback modal-wrapper" data-modal="callback">
-      <button class="modal__close-btn btn--reset" data-btn="callback"></button>
-      <form class="modal__form">
-        <h2 class="modal__title title">Заказать звонок</h2>
-        <input type="tel" class="modal__input" placeholder="Телефон">
-        <p class="modal__agreement">Нажимая “отправить”, вы даете согласие на <a href="#">обработку персональных
-          данных</a> и соглашаетесь с нашей <a href="#">политикой конфиденциальности</a></p>
-        <button class="modal__submit-btn btn--reset">ОТПРАВИТЬ</button>
-      </form>
     </div>
   </div>
   <div class="main__wrapper">

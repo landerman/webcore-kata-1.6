@@ -10,7 +10,7 @@
   transition: all 0.3s ease-in-out;
 
   &--open {
-    left: 0px;
+    left: 0;
     visibility: visible;
   }
 
@@ -98,6 +98,10 @@
       weight: 500;
     }
     color: $main-text-color;
+
+    &:hover {
+      color: $menu-text-color;
+    }
   }
 
   &__item--active &__link {
@@ -188,6 +192,10 @@
       &--active {
         color: $menu-text-color;
       }
+
+      &:hover {
+        color: $menu-text-color;
+      }
     }
   }
 }
@@ -205,6 +213,10 @@
     letter-spacing: -0.2px;
     line-height: 24px;
     color: $main-text-color;
+
+    &:hover {
+      color: $menu-text-color;
+    }
   }
 
   &__tel {
@@ -212,5 +224,9 @@
     font-weight: 600;
     letter-spacing: -0.6px;
     line-height: 32px;
+
+    &:hover {
+      color: $menu-text-color;
+    }
   }
 }
